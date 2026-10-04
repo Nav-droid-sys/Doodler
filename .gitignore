@@ -1,0 +1,44 @@
+# ─────────────────────────────────────────────
+#  Excel / customer data files — NEVER commit
+# ─────────────────────────────────────────────
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+
+# Dataset and backup folders (customer data)
+Dataset/
+Automation/backups/
+Automation/_tmp/
+
+# Fallback output
+2026_UPDATED.xlsx
+
+# ─────────────────────────────────────────────
+#  Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller
+*.spec
+*.exe
+
+# ─────────────────────────────────────────────
+#  IDE / OS
+# ─────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
